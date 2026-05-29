@@ -1,5 +1,6 @@
 
 	/* 
+		Stored Procedure : Load Data from Bronze to Silver
 		Loading Transformed Data from Bronze Layer to Silver Layer Tables
 		Data from Bronze Layer has been checked for Quality and cleansed or transformed before loading into Silver Layer
 		Actions Performed :

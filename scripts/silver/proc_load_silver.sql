@@ -2,7 +2,9 @@
 	/* 
 		Loading Transformed Data from Bronze Layer to Silver Layer Tables
 		Data from Bronze Layer has been checked for Quality and cleansed or transformed before loading into Silver Layer
-
+		Actions Performed :
+		- Truncates Silver tables.
+		- Inserts Transformed and cleansed data from Bronze into Silver tables.
 	*/
 	
 	CREATE OR ALTER PROCEDURE silver.load_silver AS
